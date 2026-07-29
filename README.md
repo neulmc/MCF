@@ -99,7 +99,7 @@ The dataset loading pipeline has been rewritten to support both bi-modal (RGB+IR
 | MCF-Net (Ours) | 88.9 | 59.7 | 3.4        |
 | MCF-Net-S (Ours) | 91.1 | 62.4 | 12.4       |
 
-We have released our pre-trained model and visualization results on the M3FD public dataset, along with the dataset split details, at [link]. 
+We have released our pre-trained model and visualization results on the M3FD public dataset, along with the dataset split details, at https://pan.baidu.com/s/1aug5GcZqYubE8WZlVHhISA code: jqt5. 
 The AIC2026 dataset is not publicly available for direct download, but it can be accessed by participating in the competition and applying through its official website (https://www.aicomp.cn/tracks/3633.html).
 
 ## 📧 Contact
