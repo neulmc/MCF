@@ -117,6 +117,7 @@ The table below presents the detailed AP scores across 10 IoU thresholds from 0.
 | DC + CMSF |    38.51    | 63.70 | 61.17 | **58.16** | 53.56 | 48.30 | 36.84 | 29.13 | 19.83 | **11.63** | 2.73 |
 | CMGA + CMSF |    38.78    | **63.83** | 61.31 | 57.94 | 53.55 | 48.50 | 39.39 | 29.48 | 19.24 | 11.40 | 3.11 |
 | Full (DC+CMGA+CMSF) |  **39.01**  | 63.30 | 60.98 | 58.12 | **55.12** | **49.86** | 39.17 | 29.12 | **20.05** | 11.10 | **3.31** |
+
 This detailed per‑threshold comparison further reveals the complementary behavior of the three proposed modules. DC+CMGA achieves the highest AP50 (64.51%) and AP75 (39.58%), demonstrating its strength in moderate‑quality localization. However, the full model, which further incorporates CMSF, attains the best performance at higher IoU thresholds (AP65: 55.12%, AP70: 49.86%) and the highest mAP50‑95 (39.01%). This indicates that CMSF prioritizes overall performance across varying localization quality requirements rather than optimizing for a single threshold. Overall, the three modules contribute differently, and their combination yields the most balanced detection capability.
 
 
