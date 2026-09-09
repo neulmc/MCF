@@ -108,7 +108,7 @@ The AIC2026 dataset is not publicly available for direct download, but it can be
 The table below presents the detailed AP scores across 10 IoU thresholds from 0.50 to 0.95 for each ablation configuration. 
 These results supplement **Table 6** in the paper.
 
-| Configuration | **mAP50-95 (primary metric)** | AP50 | AP55 | AP60 | AP65 | AP70 | AP75 | AP80 | AP85 | AP90 | AP95 |
+| 1 | **mAP50-95 (primary metric)** | AP50 | AP55 | AP60 | AP65 | AP70 | AP75 | AP80 | AP85 | AP90 | AP95 |
 | :--- |:-----------:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Baseline |    37.69    | 61.68 | 59.35 | 56.69 | 52.63 | 46.21 | 38.21 | 27.83 | 19.70 | **11.67** | 2.94 |
 | + DC |    38.26    | 63.01 | 60.60 | 57.86 | 53.08 | 48.06 | 37.82 | **30.22** | 18.64 | 10.53 | 2.80 |
@@ -127,7 +127,7 @@ This detailed per‑threshold comparison further reveals the complementary behav
 The table below presents the detailed AP scores across 10 IoU thresholds from 0.50 to 0.95 for each modality configuration. 
 These results supplement **Table 7** in the paper.
 
-| Configuration | **mAP50-95 (primary metric)**  | AP50 | AP55 | AP60 | AP65 | AP70 | AP75 | AP80 | AP85 | AP90 | AP95 |
+| 1 | **mAP50-95 (primary metric)**  | AP50 | AP55 | AP60 | AP65 | AP70 | AP75 | AP80 | AP85 | AP90 | AP95 |
 | :--- |:---------:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | RGB |   36.84   | 60.63 | 58.32 | 55.37 | 51.13 | 45.03 | 37.46 | 28.84 | 19.58 | 10.69 | 1.38 |
 | IR |   21.93   | 38.97 | 35.80 | 32.43 | 29.06 | 24.78 | 21.29 | 15.97 | 11.63 | 7.66 | 1.69 |
