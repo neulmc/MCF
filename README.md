@@ -105,7 +105,8 @@ The AIC2026 dataset is not publicly available for direct download, but it can be
 
 ### Detailed AP Scores at All IoU Thresholds (AIC2026) — Ablation Study
 
-The table below presents the detailed AP scores across 10 IoU thresholds from 0.50 to 0.95 for each ablation configuration. These results supplement Table 6 in the paper.
+The table below presents the detailed AP scores across 10 IoU thresholds from 0.50 to 0.95 for each ablation configuration. 
+These results supplement **Table 6** in the paper.
 
 | Configuration | **mAP50-95 (primary metric)** | AP50 | AP55 | AP60 | AP65 | AP70 | AP75 | AP80 | AP85 | AP90 | AP95 |
 | :--- |:-----------:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -123,7 +124,8 @@ This detailed per‑threshold comparison further reveals the complementary behav
 
 ### Detailed AP Scores at All IoU Thresholds (AIC2026) — Modality Analysis
 
-The table below presents the detailed AP scores across 10 IoU thresholds from 0.50 to 0.95 for each modality configuration. These results supplement Table 7 in the paper.
+The table below presents the detailed AP scores across 10 IoU thresholds from 0.50 to 0.95 for each modality configuration. 
+These results supplement **Table 7** in the paper.
 
 | Configuration | **mAP50-95 (primary metric)**  | AP50 | AP55 | AP60 | AP65 | AP70 | AP75 | AP80 | AP85 | AP90 | AP95 |
 | :--- |:---------:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -135,6 +137,7 @@ The table below presents the detailed AP scores across 10 IoU thresholds from 0.
 | RGB + IR + Depth | **39.01** | 63.30 | 60.98 | 58.12 | **55.12** | **49.86** | 39.17 | 29.12 | **20.05** | **11.10** | **3.31** |
 
 The per‑threshold results provide a more nuanced view of modality contributions. RGB+IR achieves the highest AP50 (63.32%), AP55 (61.44%), AP60 (58.53%), and AP75 (40.50%), indicating that thermal information from IR effectively complements RGB texture for most targets. RGB+Depth shows a notable advantage at AP80 (30.50%), suggesting that geometric cues from Depth may offer benefits under stricter localization criteria. The tri‑modal configuration achieves the best results at AP65 (55.12%), AP70 (49.86%), AP85 (20.05%), AP90 (11.10%), and AP95 (3.31%). Overall, the tri-modal configuration achieves the highest mAP50‑95 (39.01%), indicating complementary benefits from the three modalities.
+
 ## 📧 Contact
 For questions or issues, please open an issue or contact the authors.
 
